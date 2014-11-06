@@ -1,4 +1,5 @@
 <?php
+namespace manager;
 
 	require_once './classes/config.php';
 	require_once './classes/db.php';

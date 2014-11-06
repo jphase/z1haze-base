@@ -6,6 +6,7 @@
  */
 namespace manager;
 use PDO;
+use Config;
 
 class Database extends PDO {
 
@@ -17,7 +18,7 @@ class Database extends PDO {
 	private $conn;
 
 	// This fires when you do:  $blah = new Database;
-	public function __construct( $user, $pass, $host, $dbname ) {
+	public function __construct() {
 
 		// Initialize
 		$this->user 	= $user;
