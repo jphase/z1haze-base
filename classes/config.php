@@ -9,10 +9,10 @@ namespace manager;
 class Config {
 
 	// Database variables
-	private $db_user	= 'username';
-	private $db_pass	= 'password';
-	private $db_host	= 'localhost';
-	private $db_name	= 'mydatabase';
+	public $db_user	= 'username';
+	public $db_pass	= 'password';
+	public $db_host	= 'localhost';
+	public $db_name	= 'mydatabase';
 
 	// Default timezone
 	private $time_zone	= 'America/New_York';
