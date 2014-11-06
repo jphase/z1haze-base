@@ -17,7 +17,7 @@ class Database extends PDO {
 	private $conn;
 
 	// This fires when you do:  $blah = new Database;
-	function __construct( $user, $pass, $host, $dbname ) {
+	public function __construct( $user, $pass, $host, $dbname ) {
 
 		// Initialize
 		$this->user 	= $user;
