@@ -21,10 +21,13 @@ class Database extends PDO {
 	public function __construct() {
 
 		// Initialize
-		$this->user 	= $user;
-		$this->pass 	= $pass;
-		$this->host 	= $host;
-		$this->dbname 	= $dbname;
+		$this->user 	= config->user;
+		$this->pass 	= config->pass;
+		$this->host 	= config->host;
+		$this->dbname 	= config->dbname;
+
+		echo '' . $this->user;
+		die();
 
 		// Connection
 		$this->conn = new PDO( 'mysql:host=' . $this->host . ';dbname=' . $this->dbname, $this->user, $this->pass );
