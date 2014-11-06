@@ -6,7 +6,7 @@
  */
 namespace manager;
 use PDO;
-use Config;
+use manager\Config as config;
 
 class Database extends PDO {
 

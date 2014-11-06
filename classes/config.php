@@ -6,7 +6,7 @@
  */
 namespace manager;
 
-final class Config {
+class Config {
 
 	// Database variables
 	private $db_user	= 'username';
