@@ -4,6 +4,7 @@
  * Author:	z1haze
  * Version:	1.0
  */
+namespace manager;
 
 final class Config {
 
